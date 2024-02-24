@@ -30,9 +30,13 @@ You are expected to find out the answers to following questions.
 # The results should consists of 
 
 [x] A document file containing Python code for Mapper and Reducer to the above Five questions that you have written to extract the answers and Screen shots of the output for the same
+
 [x] Individual student need to complete and submit their report seperately
+
 [x] Name the document file in format like "bitsid.doc" only. Don't add anything into the file names. 
+
 [x] Make sure that you upload the file well ahead of deadline.
+
 [x] Note - This is a group assignment, Submission is expected per group
 
 # References
