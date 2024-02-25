@@ -7,9 +7,7 @@ def mapper(year):
     for line in sys.stdin: 
         columns = line.strip().split(',') 
         if len(columns) == 43: 
-            issue_date = columns[4]
-            # violation_code = columns[5]
-            # state = columns[2]
+            issue_date = columns[4] 
             if (str(year) in issue_date):
                 street_code1 = int(columns[9])
                 street_code2 = int(columns[10])
@@ -27,9 +25,6 @@ def mapper(year):
                 if (street_code2 == 0 and street_code3 == 0):
                     print('%s\t%s' % ('Street Code 2 & 3', 1)) 
                 if (street_code1 == 0 and street_code2 == 0 and street_code3 == 0):
-                    print('%s\t%s' % ('Street Code 1, 2 & 3', 1)) 
-                
-            # if (str(year) in issue_date and (street_code1 == 0 or street_code2 == 0 or street_code3 == 0)): 
-            #     print('%s\t%s\t%s\t%s\t%s\t%s' % (violation_code, street_code1, street_code2, street_code3, state, 1))
+                    print('%s\t%s' % ('Street Code 1, 2 & 3', 1))  
 
 mapper(2022)
